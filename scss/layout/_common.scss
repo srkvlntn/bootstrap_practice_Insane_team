@@ -1,0 +1,42 @@
+header {
+	form {
+		input {
+			&::placeholder {
+				color: white !important;
+			}
+		}
+	}
+}
+
+.nav-item {
+	.active {
+		color: indianred !important;
+	}
+	a {
+		color: #fff !important;
+		transition: color .2s ease;
+		&:hover {
+			color: indianred !important;
+		}
+	}
+}
+
+.projects {
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}
+
+.section-form {
+	textarea {
+		resize: none;
+	}
+
+	textarea,
+	input {
+		&::placeholder {
+			color: white !important;
+		}
+	}
+}
