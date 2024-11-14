@@ -12,9 +12,11 @@ header {
 	.active {
 		color: indianred !important;
 	}
+
 	a {
 		color: #fff !important;
 		transition: color .2s ease;
+
 		&:hover {
 			color: indianred !important;
 		}
